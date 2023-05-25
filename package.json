@@ -1,0 +1,41 @@
+{
+  "name": "managerspend__api_node",
+  "version": "1.0.0",
+  "description": "js node api nodejs express expressjs mongo mongodb",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TKOGNISHU/ManagerSpend__API_Node.git"
+  },
+  "keywords": [
+    "js",
+    "api",
+    "node",
+    "nodejs",
+    "express",
+    "expressjs",
+    "mongo",
+    "mongodb"
+  ],
+  "author": "TRAN CHI HOA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TKOGNISHU/ManagerSpend__API_Node/issues"
+  },
+  "homepage": "https://github.com/TKOGNISHU/ManagerSpend__API_Node#readme",
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
